@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: rgb(34, 33, 33);
+  position: fixed;
+  width: 100vw;
+  /* change this background color to  background-color: rgb(50,50,50) onclick of searchbar*/
+}
+nav {
+  width: 1900px;
+  margin: 0 auto;
+  height: 90px;
+  display: flex;
+  font-size: 1.6rem;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  text-decoration: none !important;
+
+  outline: none;
+  color: rgb(199, 199, 199);
+}
+nav a:hover {
+  color: white;
+}
+.fa-brands {
+  font-size: 2.5rem;
+}
+.input-field {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-glass,
+.input-x {
+  color: grey;
+  margin-right: 20px;
+  font-size: 2rem;
+}
+.inner-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 350px;
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.inner-list a {
+  padding-left: 80px;
+  margin-right: 20px;
+  height: 50px;
+  align-items: center;
+}
+.inner-list a:hover {
+  background-color: rgba(160, 161, 175, 0.3);
+  color: rgb(81, 132, 209);
+}
+#input {
+  width: 1250px;
+  font-size: 2.2rem;
+  color: grey;
+  background-color: rgb(34, 33, 33);
+  outline: none;
+  border: none;
+}
+.container {
+  position: fixed;
+  height: 93.5vh;
+  width: 100vw;
+  bottom: 0;
+  background-color: rgba(160, 161, 175, 0.7);
+  display: flex;
+  justify-content: center;
+}
+.inner-container {
+  height: 500px;
+  width: 1350px;
+  background-color: white;
+  border-end-start-radius: 50px;
+  border-bottom-right-radius: 50px;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+.inner-container p {
+  padding-left: 50px;
+}
+.first-section {
+  height: 96vh;
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ipad-img img {
+  height: 900px;
+  width: 800px;
+  overflow: hidden;
+}
+.ipad-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+#ipad-text-title {
+  font-size: 8rem;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.ipad-text p {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.ipad-lrn-buy {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2997ff;
+  padding: 20px 50px;
+  width: 500px;
+}
+.ipad-lrn-buy a {
+  color: #2997ff;
+  text-decoration: none;
+}
+
+.second-section {
+  padding-top: 200px;
+  height: 1300px;
+  background-color: black;
+  color: white;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.img-div {
+  background-image: url(/images/hero_endframe__cvklg0xk3w6e_large.jpg);
+  background-size: auto;
+  width: 1800px;
+  height: 700px;
+}
+.section2 h3 {
+  font-size: 7rem;
+  font-weight: bolder;
+}
+
+.section2 h4 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.learn-section-2 {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.learn-section-2 a {
+  padding-top: 20px;
+  color: #2997ff;
+  text-decoration: none;
+}
+.third-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  justify-content: space-evenly;
+  gap: 50px;
+  margin-top: 30px;
+}
+.grids {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.grid1 {
+  background-image: url(/images/phones\ together.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center bottom;
+  width: 100%;
+  height: 1100px;
+}
+.grids h3 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-top: 65px;
+}
+.grids h4 {
+  font-size: 2.2rem;
+}
+#learn {
+  font-size: 2rem;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.grid2 {
+  background-image: url(/images/tv\ grey.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 1100px;
+}
+.grid2 h4 {
+  width: 500px;
+  text-align: center;
+}
+.grids h3 i {
+  font-size: 4rem;
+}
+#four {
+  font-size: 3rem;
+}
+.grid3 {
+  background-image: url(/images/hero_combo__fcqcc3hbzjyy_large.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  width: 100%;
+  height: 1100px;
+}
+.grid3 h3 {
+  color: white;
+}
+.grid3 h4 {
+  color: white;
+}
+.grid4 {
+  background-image: url(/images/dive_face_dark_part2_endframe__gngvfua035m6_large.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center bottom;
+  width: 100%;
+  height: 1100px;
+}
+.learnBtn a {
+  text-decoration: none;
+  color: #2997ff;
+}
+.grid4 h5 {
+  color: orange;
+  font-weight: bold;
+  font-size: 2rem;
+}
+footer {
+  background-color: rgb(218, 219, 221);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-section-one {
+  height: 400px;
+  width: 1800px;
+  padding: 30px 0;
+  border-bottom: 3px grey solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.footer-section-one p {
+  font-size: 1.35rem;
+  color: rgb(88, 92, 101);
+  font-weight: 800;
+}
+.footer-section-two {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 1800px;
+}
+.shop-and-learn {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  line-height: 50px;
+}
+.shop-and-learn a {
+  text-decoration: none;
+  color: rgb(88, 92, 101);
+  font-weight: 900;
+}
+
+.shop-and-learn a :hover {
+  border-bottom: 1px black solid;
+}
+.shop-and-learn h4 {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
