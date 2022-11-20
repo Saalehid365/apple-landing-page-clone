@@ -1,7 +1,18 @@
-const openSearch = document.querySelector("search-btn");
+const openSearch = document.querySelector(".search-btn");
 
-const hiddenNavs = document.querySelectorAll("nav-link");
+const navBarTags = document.getElementById("navlink");
+const hiddenBar = document.getElementById("hidden-search");
+const closeSearch = document.querySelector(".input-x");
 
 document.getElementById("search").addEventListener("click", function () {
-  hiddenNavs.classlist.add("nav-link").style.display = "none";
+  navBarTags.classList.add("hidden");
+  hiddenBar.classList.remove("hidden");
 });
+
+document
+  .getElementById("hidden-search")
+  .addEventListener("click", function (e) {
+    const clicked = e.target.childElement(".input-x");
+    navBarTags.classList.remove("hidden");
+    hiddenBar.classList.add("hidden");
+  });

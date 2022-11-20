@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/d2a8df92dc.js"
       crossorigin="anonymous"
     ></script>
-    <script src="/script.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,26 +21,28 @@
   <body>
     <header>
       <nav class="navbar">
-        <i class="fa-brands fa-apple hidden"></i>
-        <a class="nav-link" href="/">Store</a>
-        <a class="nav-link" href="/">Mac</a>
-        <a class="nav-link" href="">iPad</a>
-        <a class="nav-link" href="">iPhone</a>
-        <a class="nav-link" href="">Watch</a>
-        <a class="nav-link" href="">AirPods</a>
-        <a class="nav-link" href="">TV & Home</a>
-        <a class="nav-link" href="">Only on Apple</a>
-        <a class="nav-link" href="">Accessories</a>`
-        <a class="nav-link" href="">Support</a>
-        <a class="search-btn nav-link" id="search">
-          <i class="fa-solid fa-magnifying-glass"></i
-        ></a>
-        <div class="input-field hidden">
+        <div class="nav-list" id="navlink">
+          <i class="fa-brands fa-apple hidden"></i>
+          <a class="nav-link" href="/">Store</a>
+          <a class="nav-link" href="/">Mac</a>
+          <a class="nav-link" href="">iPad</a>
+          <a class="nav-link" href="">iPhone</a>
+          <a class="nav-link" href="">Watch</a>
+          <a class="nav-link" href="">AirPods</a>
+          <a class="nav-link" href="">TV & Home</a>
+          <a class="nav-link" href="">Only on Apple</a>
+          <a class="nav-link" href="">Accessories</a>
+          <a class="nav-link" href="">Support</a>
+          <a class="search-btn nav-link" id="search">
+            <i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a class="" href=""><i class="fa-solid fa-basket-shopping"></i></a>
+        </div>
+        <div class="input-field hidden" id="hidden-search">
           <i class="fa-solid fa-magnifying-glass input-glass"></i>
           <input type="text" id="input" placeholder="Search apple.com" />
-          <i class="fa-solid fa-x input-x"></i>
+          <i class="fa-solid fa-x input-x" id="close-search"></i>
         </div>
-        <a class="" href=""><i class="fa-solid fa-basket-shopping"></i></a>
       </nav>
     </header>
     <section class="hidden">
@@ -210,5 +212,6 @@
         </div>
       </div>
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>

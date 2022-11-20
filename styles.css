@@ -20,6 +20,11 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+.nav-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
 nav a {
   text-decoration: none !important;
 
